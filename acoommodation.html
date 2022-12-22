@@ -1,0 +1,152 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device- width, initial-scale=1.0" />
+    <title>Where I Stay?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6596afc3d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul class="nobull">
+            <li><a href="">HOME</a></li>
+            <li><a href="whoami.html">WHO AM I?</a></li>
+            <li><a href="places.html">PLACES</a></li>
+            <li><a href="acoommodation.html">ACCOMMODATION</a></li>
+            <li><a href="contactme.html">CONTACT ME</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Welcome My Trip Blog</h1>
+        <p>
+          I'am Salih Can Çakar and happy to share with you the places I have
+          visited.
+        </p>
+        <a href="" class="hero-btn">Contact To Me 4 Everything</a>
+      </div>
+    </section>
+    <!---------Main Page Bottom-------->
+
+    <section class="mainpage-bottom">
+      <h1>Travel Guide</h1>
+
+      <div class="little-box">
+        <div class="box-col">
+          <img src="images/endulus-turu-450x253.png" />
+          <h3>
+            Should the Andalusia Tour Be Done Individually or With a Tour?
+          </h3>
+          <p>
+            With Andalusia and beaches in the south, Barcelona in the north,
+            Madrid and other cities in the central regions, Spain is an
+            extremely rich country in terms of tourism. Ibiza and its other
+            beaches and historical cities offer travelers a wide...
+          </p>
+        </div>
+        <div class="box-col">
+          <img src="images/vizesiz-balkan-turu-450x253.png" />
+          <h3>
+            Visa-Free Balkan Tour Should It Be Done Individually or With a Tour?
+          </h3>
+          <p>
+            Would you like to go to a different land in the heart of Europe, but
+            very different from Western and Northern Europe, very similar to
+            Turkey and Turkish culture on one side, but on the other hand? If
+            your answer is yes, in the world...
+          </p>
+        </div>
+        <div class="box-col">
+          <img src="images/ispanya-gezilecek-yerler-450x254.png" />
+          <h3>The 15 Most Beautiful Places to Visit in Spain!</h3>
+          <p>
+            Inspiring artists such as Salvador Dali, Picasso, Gaudi and Eduardo
+            Chillida, Spain is completely painting. How would you like to take a
+            look at the cities waiting for you in Spain, where picturesque
+            images are intertwined with a deep-rooted history?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---------Testimonials-------->
+
+    <section class="testimonials">
+      <h1>What Say Last Visitors?</h1>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/1.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              sequi, dignissimos ipsam impedit quibusdam doloremque autem id ad
+              iste vel aspernatur ullam eaque neque quas accusamus quos quaerat
+              repudiandae dolorem.
+            </p>
+            <h3>Salih Can Cakar</h3>
+          </div>
+        </div>
+
+        <div class="testimonial-col">
+          <img src="images/deniz.jpeg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              consequatur optio quo aliquid et mollitia similique quod, omnis
+              itaque repudiandae quibusdam sint, eos accusamus nulla laudantium
+              cupiditate sunt non assumenda./p>
+            </p>
+            <h3>Deniz Kanat</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------Footer-------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />umque
+        harum autem laboriosam. Officiis accusantium, tempora dolore placeat
+        maiores expedita cum odio! Similique molestias assumenda magnam autem?
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made by <i class="fa fa-heart-o"></i></p>
+    </section>
+
+    <!----------JavaScript------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
